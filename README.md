@@ -64,10 +64,10 @@ Copy the provided script below and paste it before the [closing </body> tag](htt
 
 ```javascript
 // Get list of Search Results
-let resultsList = document.querySelector('[exclude-cms-items="results"]');
+const resultsList = document.querySelector('[exclude-cms-items="results"]');
 
 // Get titles in Search Results
-let resultTitles = document.querySelectorAll('[exclude-cms-items="title"]');
+const resultTitles = document.querySelectorAll('[exclude-cms-items="title"]');
 
 // Get custom empty state
 const emptyState = document.querySelector('[exclude-cms-items="empty-state"]');
@@ -76,7 +76,7 @@ const emptyState = document.querySelector('[exclude-cms-items="empty-state"]');
     emptyState.style.display = "none";
 
 // Create array of excluded item titles from all excluded Collection Lists
-let excludeTitles = Array.from(document.querySelectorAll('[exclude-cms-items="remove"]')).map((item)=> {
+const excludeTitles = Array.from(document.querySelectorAll('[exclude-cms-items="remove"]')).map((item)=> {
     return item.innerText.toLowerCase();
 });
 
