@@ -4,7 +4,7 @@ Use custom attributes to hide specific CMS items from Webflow site search result
 Although you can [natively exclude entire CMS Collections from site search](https://university.webflow.com/lesson/site-search#excluding-collection-pages), there may be times where you only want to exclude specific CMS items (and not the entire Collection). To do so, check out the instructions and resources below.
 
 ## Clone an example site from Made in Webflow:
-[https://webflow.com/made-in-webflow/website/exclude-cms-items-from-site-search]([https://exclude-cms-items-from-site-search.webflow.io/](https://webflow.com/made-in-webflow/website/exclude-cms-items-from-site-search))
+[https://webflow.com/made-in-webflow/website/exclude-cms-items-from-site-search](https://webflow.com/made-in-webflow/website/exclude-cms-items-from-site-search)
 
 # Instructions
 ## Prerequisites: Site search
